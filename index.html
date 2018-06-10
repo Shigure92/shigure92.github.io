@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PGS</title>
+
+    <body>
+        <div class="container">
+            <nav id="navbar">
+                <img src="img/logo.png" alt="logo" id="logo">
+            </nav>
+        </div>
+        <header>
+            <div class="container">
+                <h3>iTunes api example</h3>
+                <form id="song-form" role="form">
+                    <input type="text" placeholder="Search songs.." name="title" value "title" class="no-frame" id="title">
+                    <button type="submit" name="submit" class="btn-orange no-frame" onclick="searchForSong()">
+                        <a href="index2.html">search</a>
+                    </button>
+                </form>
+                <p>Search by song title, autor, song number, lyrics, catalog or copyright owner</p>
+            </div>
+        </header>
+        <main>
+            <section id="search-results" class="container text-center">
+            </section>
+        </main>
+        <footer id="before" class="justify-content-center">
+            <hr>
+            <h6>
+                <span>Powered by PGS</span>
+            </h6>
+            <hr>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <!-- <script src="https://itunes.apple.com/search?term="{searchForSong()}"&entity=song&limit=9"/> -->
+    </body>
+
+</html>
